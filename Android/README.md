@@ -30,10 +30,3 @@ Each app prompts for the U1's IPv4 address the first time it is opened. Tap the 
 
 Each app builds as a distinct APK with its own Android package ID and launcher icon. All six share the same WebView implementation and store the IP locally in that app's preferences.
 
-## Build
-
-Open this folder in Android Studio, allow it to sync Gradle, and build the six `Debug` variants from **Build Variants**. The included `Build-Paxx12Android.ps1` script can also build all six APKs with Android SDK Platform 36, Build Tools 36.0.0, and JDK 17; pass `-SdkRoot` and `-JavaHome` if those are not set in the environment. It writes signed APKs to `dist/` by default.
-
-Requirements: Android Studio with Android SDK Platform 36 and JDK 17; minimum Android version is Android 8.0 (API 26). The apps use HTTP to reach the printer on the local network. The camera page displays the printer's WebRTC stream; it does not request access to the phone's own camera or microphone.
-
-The APKs in this package are signed for direct installation. The local signing key is intentionally excluded from the source package; keep your private `paxx12-debug.keystore` outside any public GitHub repository if you need to build compatible updates. To install an APK, transfer that file to the phone and open it. Android may ask you to allow installation from the app used to open the file.
