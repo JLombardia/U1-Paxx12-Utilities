@@ -44,13 +44,11 @@ Opens the Filament Manager page. It displays the material and color information 
 
 > Screenshots were captured from a connected printer. Local network and device details, print-file names, and camera label codes have been obscured.
 
-## Installation
+## Windows Installation
 
-1. Run `Paxx12-Instalador.exe` and approve the Windows administrator prompt.
+1. Download from Windows folder `Paxx12-Instalador.exe`, run it and approve the Windows administrator prompt.
 2. Enter the IPv4 address of the Snapmaker U1 when prompted.
 3. The installer creates six desktop applications and Start menu shortcuts in the **Paxx12** group.
-
-Alternatively, extract `Paxx12-Instalador.zip` and run `Instalar-Paxx12.cmd`.
 
 The application windows load the interfaces from the printer over the local network; the web interfaces themselves are hosted by the printer.
 
@@ -61,8 +59,7 @@ The application windows load the interfaces from the printer over the local netw
 - Microsoft Edge WebView2 Runtime
 - A network connection from the PC to the printer
 
-## Distribution files
+## Android Installation
 
-- `Paxx12-Instalador.zip` — installer files and command-line launcher with an IP prompt
-- `Paxx12-Instalador.exe` — self-extracting installer with the same IP prompt
-- `Paxx12-Programas.zip` — application files
+1. Download and install the apps Android folder.
+
