@@ -1,1 +1,0 @@
-Paxx12 Installer will ask you for your U1 lan IP. Them it´ll install five apps in Windows that shows the different webs of Paxx12 (fluiid, firmware config, mUlt1ACE, remote screen and camera) without use a browwser.
